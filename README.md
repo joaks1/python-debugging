@@ -4,7 +4,7 @@ The goal of this exercise is to learn some basics of debugging Python code.
 
 -   [Getting set up](#getting-set-up)
 -   [Learning objective](#learning-objective)
--   [The Python debugger](#the-python-dbugger)
+-   [The Python debugger](#the-python-debugger)
     -   [Running the script through the debugger](#running-the-script-through-the-debugger)
     -   [Using breakpoints](#using-breakpoints)
 -   [The Exercise](#the-exercise)
