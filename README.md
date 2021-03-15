@@ -93,7 +93,7 @@ Let's try running it again with two arguments:
         area = height * width
     TypeError: can't multiply sequence by non-int of type 'str'
 
-Oop, we definitely have some bugs to fix.
+Oops, we definitely have some bugs to fix.
 
 Now, let's try running the script through the Python debugger:
 
