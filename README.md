@@ -4,12 +4,10 @@ The goal of this exercise is to learn some basics of debugging Python code.
 
 -   [Getting set up](#getting-set-up)
 -   [Learning objective](#learning-objective)
--   [The goal](#the-goal)
--   [The script](#the-script)
--   [Best practice 1: Put code into functions](#best-practice-1-put-code-into-functions)
--   [Best practice 2: Write modules not scripts](#best-practice-2-write-modules-not-scripts)
--   [Best practice 3: Use docstrings to document your code](#best-practice-3-use-docstrings-to-document-your-code)
--   [Best practice 4: Add tests to your docstrings](#best-practice-4-add-tests-to-your-docstrings)
+-   [The Python debugger](#the-python-dbugger)
+    -   [Running the script through the debugger](#running-the-script-through-the-debugger)
+    -   [Using breakpoints](#using-breakpoints)
+-   [The Exercise](#the-exercise)
 -   [Acknowledgments](#acknowledgments)
 -   [License](#license)
 
@@ -332,7 +330,7 @@ like we learned above. For example, use `p` and `type` to inspect the variables
     <class 'str'>
 
 
-# The exercise
+# The Exercise
 
 Now that you know the basics of the Python debugger,
 use it to debug the `area_of_rectangle.py` script.
