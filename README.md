@@ -65,7 +65,7 @@ statements can go a long way in helping you find and fix them.
 However, some bugs are tricky to find, and scattering `print` statements all
 over your code is not an efficient solution.
 
-Thankfully, Python has a powerful debugger build right in:
+Thankfully, Python has a powerful debugger built right in:
 The `pdb` module (which stands for Python debugger).
 For this exercise, we will learn how to use the `pdb` to fix bugs in the
 `area_of_rectangle.py` script included in this repo.
@@ -106,7 +106,8 @@ You will see output like:
     (Pdb) 
 
 You are now inside the script, inside the Python debugger.
-The first `pdb` you should now is `h` or `help`. Type `h` and hit enter:
+The first `pdb` command you should learn is `h` or `help`. Type `h` and hit
+enter:
 
     (Pdb) h
 
