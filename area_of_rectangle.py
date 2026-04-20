@@ -5,6 +5,7 @@
 import sys
 
 
+
 def area_of_rectangle(height, width = None):
     """
     Returns the area of a rectangle.
@@ -29,12 +30,21 @@ def area_of_rectangle(height, width = None):
     >>> area_of_rectangle (7, 2)
     14
     """
-    if width:
+
+    height = int(height)
+   # print("height is:", height)
+    width = int(width)
+   # print("width is:",width)
+
+    if width == None:
         width = height
+    
+
     area = height * width
     return area
 
 if __name__ == '__main__':
+   # print("len is ",len(sys.argv))
     if (len(sys.argv) < 2) or (len(sys.argv) > 3):
         message = (
                 "{script_name}: Expecting one or two command-line arguments:\n"
@@ -42,11 +52,16 @@ if __name__ == '__main__':
                 "rectangle".format(script_name = sys.argv[0]))
         sys.exit(message)
     height = sys.argv[1]
-    width = height
-    if len(sys.argv) > 3:
-        width = sys.argv[1]
+   # print("h is ",height)
+    if len(sys.argv) == 2:
+        width = height
+    else: 
+        width = sys.argv[2]
+    #if len(sys.argv) > 3:
+    #    width = sys.argv[1]
 
     area = area_of_rectangle(height, width)
+   # print(area)
 
     message = "The area of a {h} X {w} rectangle is {a}".format(
             h = height,
